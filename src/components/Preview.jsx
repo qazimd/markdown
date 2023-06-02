@@ -6,7 +6,7 @@ function Preview({ value }) {
     <div className="preview">
       <h2>Preview</h2>
       <div className="preview-content">
-        <ReactMarkdown children={value} />
+        <ReactMarkdown children={value}/>
       </div>
     </div>
   );

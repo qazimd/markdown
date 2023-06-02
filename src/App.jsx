@@ -6,14 +6,14 @@ function App() {
   const [markdown, setMarkdown] = useState('');
 
   function handleInputChange(event) {
-    setMarkdown(event.target.value);
+        setMarkdown(event.target.value);
   };
 
   return (
     <div className="App">
       <h1>Markdown Converter</h1>
       <div className="converter">
-        <Editor value={markdown} onChange={handleInputChange} />
+        <Editor onChange={handleInputChange} />
         <Preview value={markdown} />
       </div>
     </div>
